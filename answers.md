@@ -1,8 +1,8 @@
 # Big O Answers
 
 ## Snippet 1 -
-### Big O:
-### Explanation:
+### Big O: O(n)
+### Explanation: The function is executing 1 loop through the array, returning true or false for a condition
 ```python
 def largest(array, value):
   for item in array:
@@ -13,8 +13,8 @@ def largest(array, value):
 
 
 ## Snippet 2 -
-### Big O:
-### Explanation:
+### Big O: O(n)
+### Explanation: It is 2 loops through an array, which ends up being O(2n) -> O(n)
 
 ```python
 def info_dump(customers):
@@ -30,8 +30,8 @@ def info_dump(customers):
 ```
 
 ## Snippet 3 -
-### Big O:
-### Explanation:
+### Big O: O(1)
+### Explanation: initializaiton of 1 element is constant for all functions
 
 ```python
 def first_element_is_red(array):
@@ -39,8 +39,8 @@ def first_element_is_red(array):
 ```
 
 ## Snippet 4 -
-### Big O:
-### Explanation:
+### Big O: O(n)
+### Explanation: parallel running through same array
 
 ```python
 def duplicates(array):
@@ -54,8 +54,8 @@ def duplicates(array):
 ``` 
 
 ## Snippet 5 -
-### Big O:
-### Explanation:
+### Big O: O(n^2)
+### Explanation: If n in both arrays grows, the output grows at N^2 options
 
 ```python
 words = ['chocolate', 'coconut', 'rainbow']
@@ -68,8 +68,8 @@ for word in words:
 ```
 
 ## Snippet 6 -
-### Big O:
-### Explanation:
+### Big O: O(n)
+### Explanation: It is a single run through an n length array
 
 ```python
 numbers = [1,2,3,4,5,6,7,8,9,10]
@@ -81,8 +81,8 @@ def print_array(array):
 ```
 
 ## Snippet 7 -
-### Big O:
-### Explanation:
+### Big O: O(n)
+### Explanation: It is moving through the array 1 time, comparing adjacent values, switching them if necessary.
 
 ```python
 # this is insertion sort
@@ -97,8 +97,8 @@ def insertionSort(arr):
 ```
 
 ## Snippet 8 -
-### Big O:
-### Explanation:
+### Big O: O(n)
+### Explanation: This seems to be another swapping function, sorting from greatest to least. It is a parallel loop. 
 
 ```python
 for i in range(len(my_list)):

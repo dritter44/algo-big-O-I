@@ -22,8 +22,9 @@ def largest(array, value):
   for item in array:
     if item > value:
       return False
-  return True 
-```
+  return True \
+    
+#O(n)
 
 Snippet 2 - Big O:
 
@@ -37,6 +38,7 @@ def info_dump(customers):
   print('Customer Locations:')
   for customer in customers: 
     print(customer['country'])
+#O(n)
   
 ```
 
@@ -44,6 +46,7 @@ Snippet 3 - Big O:
 ```python
 def first_element_is_red(array):
   return array[0] == 'red' 
+#O(1)
 ```
 
 Snippet 4 - Big O:
@@ -57,6 +60,7 @@ def duplicates(array):
         return True
   return False
 ```
+#O(n)
 
 Snippet 5 - Big O:
 ```python
